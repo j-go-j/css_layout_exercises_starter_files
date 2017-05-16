@@ -1,0 +1,45 @@
+nav {
+	padding-top: 20px;
+	padding-right: 60px;
+	padding-left: 60px;
+	text-align: right;
+	position: fixed;
+	background-color: grey;
+	height: 100px;
+	width: 100%;
+}
+nav ul {
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+	padding: 20px;
+
+}
+img {
+	position: absolute;
+	left: 10px;
+	top: 0;
+}
+div {
+	width: 600px;
+	height: 300px;
+	border: dashed 10px green;
+	position: absolute;
+	top:200px;
+	left: 200px;
+}
+.cat {
+	position: relative;
+	top: 0;
+	left:0;
+}
+.dog {
+	position: relative;
+	top: 150px;
+	left: 200px;
+}
+body {
+	background: url("https://photojournal.jpl.nasa.gov/jpeg/PIA11796.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
